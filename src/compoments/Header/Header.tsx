@@ -20,9 +20,9 @@ const Header = () => {
     <header className="header">
       <div className="header__logo-box">
         <Link to={"/"} onClick={closeSideBar}>
-          <div className="header__logo-symbol">V</div>
+          <div className="header__logo-symbol">D</div>
           <div className="header__logo-text">
-            Victor <span>Onwuzor</span>
+            Dung <span>Tran</span>
           </div>
         </Link>
       </div>

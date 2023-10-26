@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
 *,
 *::after,
 *::before {
@@ -26,7 +28,7 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem;
-  background-color: $color-grey-dark-2;
+  background-color: $color-grey-dark-4;
 
   @include responsive(tab-port) {
     padding: 0;
