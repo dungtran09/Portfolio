@@ -3,15 +3,11 @@ import Container from "../../compoments/Container/Container";
 import PageHeader from "../../compoments/PageHeader/PageHeader";
 import Section from "../../compoments/Section/Section";
 
-import { Radio, RadioChangeEvent, Tabs } from "antd";
+import { Tabs } from "antd";
 import { TabsPosition } from "antd/es/tabs";
 
 const Portfolio = () => {
   const [mode, setMode] = useState<TabsPosition>("top");
-
-  const handleModeChange = (e: RadioChangeEvent) => {
-    setMode(e.target.value);
-  };
 
   return (
     <Section>
@@ -62,15 +58,6 @@ const Portfolio = () => {
             </div>
           </div>
         }
-
-        <Radio.Group
-          onChange={handleModeChange}
-          value={mode}
-          style={{ marginBottom: 8 }}
-        >
-          <Radio.Button value="top">Horizontal</Radio.Button>
-          <Radio.Button value="left">Vertical</Radio.Button>
-        </Radio.Group>
         <Tabs
           defaultActiveKey="1"
           tabPosition={mode}
