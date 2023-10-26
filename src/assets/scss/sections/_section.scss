@@ -1,0 +1,7 @@
+.section {
+  padding: 12rem 0;
+
+  @include responsive(ipad) {
+    padding: 0;
+  }
+}

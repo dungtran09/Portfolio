@@ -1,0 +1,164 @@
+@import "../../assets/scss/abstracts/variables";
+@import "../../assets/scss/abstracts/mixins";
+
+.header {
+  position: relative;
+
+  @include responsive(ipad) {
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: $color-white;
+    width: 100%;
+    z-index: 999;
+  }
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 6rem;
+
+    a > * {
+      display: inline-block;
+    }
+
+    @include responsive(ipad) {
+      position: static;
+    }
+  }
+
+  &__logo-symbol {
+    background-color: $color-primary;
+    color: $color-white;
+    border-radius: 50%;
+    height: 4.4rem;
+    width: 4.4rem;
+    text-align: center;
+    line-height: 4.4rem;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-right: 0.8rem;
+    margin-top: 0.4rem;
+  }
+
+  &__logo-text {
+    line-height: 5rem;
+    font-size: 2rem;
+    color: $color-black-1;
+    font-weight: 600;
+
+    span {
+      font-weight: 400;
+    }
+  }
+
+  // navigation
+  &__navigation {
+    &-icon {
+      display: none;
+
+      @include responsive(ipad) {
+        display: inline-block;
+        position: absolute;
+        top: 2.3rem;
+        right: 2rem;
+        color: $color-grey-dark-4;
+      }
+    }
+
+    &-nav {
+      position: absolute;
+      top: 4rem;
+      right: 6rem;
+
+      @include responsive(ipad) {
+        display: none;
+      }
+    }
+
+    &-list {
+      list-style: none;
+    }
+
+    &-item {
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-right: 4rem;
+      }
+    }
+
+    &-link {
+      &:link,
+      &:visited {
+        line-height: 5.2rem;
+        font-size: $default-font-size;
+        font-weight: 400;
+        color: $color-grey-dark-4;
+        opacity: 0.55;
+        transition: all 0.3s;
+      }
+
+      &:hover,
+      &:active {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.side {
+  &__nav {
+    display: none;
+
+    @include responsive(ipad) {
+      display: block;
+      background-color: $color-white;
+      width: 100%;
+      max-width: 320px;
+      height: calc(100% - 52px);
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      left: auto;
+      top: 52px;
+      z-index: -1;
+      opacity: 1;
+      overflow: auto;
+      visibility: visible;
+      padding: 4rem;
+    }
+
+    &-list {
+      list-style: none;
+      font-size: $default-font-size;
+    }
+
+    &-item {
+      display: block;
+    }
+
+    &-link {
+      &:link,
+      &:visited {
+        line-height: 5.2rem;
+        font-size: $default-font-size;
+        font-weight: 400;
+        color: $color-grey-dark-4;
+        opacity: 0.55;
+        transition: all 0.3s;
+      }
+
+      &:hover,
+      &:active {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.mobile-menu-hide {
+  margin-right: -100%;
+}

@@ -1,0 +1,65 @@
+.tabs {
+  @include responsive(ipad) {
+    padding: 0 2.2rem;
+  }
+
+  .tab {
+    &__item {
+      width: calc(33.33333% - 16px);
+      float: left;
+      margin-right: 16px;
+
+      @include responsive(ipad) {
+        width: calc(50% - 16px);
+      }
+
+      @include responsive(phone) {
+        width: 100%;
+      }
+    }
+
+    &__list {
+      list-style: none;
+      text-align: right;
+    }
+
+    &__link {
+      display: inline-block;
+      cursor: pointer;
+      line-height: 5.2rem;
+      font-size: $default-font-size;
+      font-weight: 400;
+      color: $color-grey-dark-4;
+      opacity: 0.55;
+      transition: all 0.3s;
+
+      //change to anchor if needs be
+      &:hover,
+      &:active {
+        opacity: 1;
+      }
+
+      &:not(:last-child) {
+        margin-right: 4rem;
+      }
+    }
+  }
+}
+
+// .tab-list {
+//   border-bottom: 1px solid #ccc;
+//   padding-left: 0;
+// }
+
+// .tab-list-item {
+//   display: inline-block;
+//   list-style: none;
+//   margin-bottom: -1px;
+//   padding: 0.5rem 0.75rem;
+// }
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}

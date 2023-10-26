@@ -1,0 +1,73 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.2rem 3.3rem;
+    display: inline-block;
+    border-radius: 3rem;
+    transition: all 0.2s ease-out;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+
+    // change for button element
+    // border: none;
+    cursor: pointer;
+  }
+
+  &__primary {
+    border: 2px solid $color-primary;
+    line-height: 1.2;
+    color: $color-black-1;
+    margin-right: 0.7rem;
+    background-color: $color-white;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.22);
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-primary;
+    }
+  }
+
+  &__secondary {
+    border: 2px solid $color-grey-dark-5;
+    line-height: 1.2;
+    color: $color-grey-dark-3;
+    background-color: $color-white;
+    box-shadow: 0 10px 10px -8px $color-grey-dark-5;
+
+    &:hover {
+      color: $color-black-1;
+      background-color: $color-grey-dark-5;
+    }
+  }
+}
+
+.btn-sm {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3rem;
+    transition: all 0.2s ease-out;
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    cursor: pointer;
+  }
+
+  &__primary {
+    border: 2px solid $color-primary;
+    color: $color-black-1;
+    background-color: $color-white;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.22);
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-primary;
+    }
+  }
+}

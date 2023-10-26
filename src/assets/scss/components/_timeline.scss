@@ -1,0 +1,56 @@
+.timeline {
+  // @include clearfix;
+
+  &__item {
+    position: relative;
+    padding: 2.5rem 0 2rem 4rem;
+
+    &:first-child {
+      padding-top: 0.3rem;
+    }
+
+    &::before {
+      content: "";
+      height: 100%;
+      display: block;
+      background-color: $color-grey-dark-7;
+      position: absolute;
+      width: 0.2rem;
+      left: 1.5rem;
+      bottom: 0.5rem;
+    }
+
+    &::after {
+      content: "";
+      width: calc(100% - 1.5rem);
+      display: block;
+      background-color: $color-grey-dark-7;
+      position: absolute;
+      height: 0.2rem;
+      left: 1.5rem;
+      bottom: 0.3rem;
+    }
+  }
+
+  &__period {
+    border: 2px solid $color-primary;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 3rem;
+    line-height: 2.3rem;
+    padding: 0 1rem;
+    position: relative;
+    margin: 0 0 0.5rem -4rem;
+    background-color: $color-white;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-size: 1.3rem;
+    display: inline-block;
+    color: $color-grey-dark-3;
+    opacity: 0.7;
+    margin-left: 0.5rem;
+  }
+}
