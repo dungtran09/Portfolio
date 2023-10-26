@@ -12,7 +12,6 @@ const Portfolio = () => {
   return (
     <Section>
       <PageHeader title="My Projects" />
-
       <Container>
         {
           <div className="tabs">
