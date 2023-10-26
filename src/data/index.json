@@ -1,0 +1,135 @@
+{
+  "experiences": [
+    {
+      "start": "Feb 2023",
+      "end": "Present",
+      "company": "HeyCar (Berlin, Germany)",
+      "role": "Senior Frontend Engineer",
+      "description": "Write production-ready clean code, ensure the testing pyramid is followed, and Consistently design code aligned with the overall service architecture, make technical decisions in alignment with the organization's engineering technical vision, Identify and escalate potential risks in the team's domain to engineering managers. and mentor junior engineers.",
+      "link": "https://hey.car/"
+    },
+    {
+      "start": "Apr 2021",
+      "end": "Aug 2022",
+      "company": "Construyo (Berlin, Germany)",
+      "role": "Fullstack Software Engineer",
+      "description": "Discussing product road map with the dev and product team. Creating stories for road map tasks. Writing down implementation plan for each task . Writing the code/test for tasks. Code Review. Onboarding new engineer to the team.",
+      "link": "https://www.construyo.de/"
+    },
+    {
+      "start": "Feb 2020",
+      "end": "Mar 2021",
+      "company": "LevelTen Energy, Inc. (Washington, USA. Remote)",
+      "role": "Fullstack Software Engineer",
+      "description": "Redesign the UI and build API's to integrate European markets into LevelTen platforms.",
+      "link": "https://leveltenenergy.com/"
+    },
+    {
+      "start": "Jul 2019",
+      "end": "Jan 2020",
+      "company": "Sondermind (Denver, USA. Remote)",
+      "role": "Frontend Engineer",
+      "description": "I worked as an Angular frontend engineer building the new interactive payment process UI that powers invoicing, installment payment, virtual card management, and payment with Stripe API and Insurance plan.",
+      "link": "https://www.sondermind.com/"
+    },
+    {
+      "start": "Sep 2018",
+      "end": "Sep 2020",
+      "company": "Andela (Lagos, Nigeria. Remote)",
+      "role": "Fullstack Software Engineer",
+      "description": "I worked as a full-stack engineer in a remote distributed team to build Andela’s in-house Cab booking Slack bot and web application. I also worked with Andela Partners as an integral part of their tech team to build innovative solutions.",
+      "link": "https://andela.com/"
+    },
+    {
+      "start": "Jan 2018",
+      "end": "Jul 2018",
+      "company": "GlossKode Technology Solution (Lagos, Nigeria)",
+      "role": "Software Engineer",
+      "description": "I build a fintech pension application that helps pension owners carry out banking transactions like fund transfer, utility bills transactions at the comfort of their homes.",
+      "link": "https://glosskode.com/"
+    },
+    {
+      "start": "Jul 2017",
+      "end": "Dec 2017",
+      "company": "Marketing Magnet (Lagos, Nigeria)",
+      "role": "Web Developer",
+      "description": "I redesign the company website to a new and more responsive design and build the company's client's website.",
+      "link": "http://themarketingmagnet.com/"
+    }
+  ],
+  "educations": [
+    {
+      "year": "2015",
+      "school": "University of Benin",
+      "degree": "Bachelor of Science in Economics and Statistics"
+    }
+  ],
+  "skills": {
+    "basics": ["JavaScript", "TypeScript", "NodeJs", "HTML5", "CSS3/SASS"],
+    "libraries": [
+      "NextJS",
+      "ExpressJS",
+      "SailsJS",
+      "NestJS",
+      "Fastify",
+      "Angular 2+",
+      "React/Redux"
+    ],
+    "databases": [
+      "MongoDB/Mongoose",
+      "PostgreSQL/Sequelize",
+      "MySQL",
+      "Redis",
+      "SQL"
+    ],
+    "testing": [
+      "React Testing Library",
+      "Mocha/Chai",
+      "Jest",
+      "Jasmine",
+      "Protractor"
+    ],
+    "integration": ["Circle CI", "Travis CI", "Code Climate"],
+    "infrastructure": [
+      "Heroku",
+      "Google Cloud Platform",
+      "Netify",
+      "Vercel",
+      "Firebase",
+      "AWS"
+    ],
+    "api": ["REST", "GraphQL"]
+  },
+  "blogs": [
+    {
+      "title": "How to setup Sequelize migration in a NestJS Project",
+      "body": "When building your backend application with Sequelize, you need a way to ensure your database is in sync with changes made in your model schemas. Sequelize provides three ways to do this....",
+      "date": "FEBRUARY 13, 2021",
+      "link": "https://victoronwuzor.medium.com/how-to-setup-sequelize-migration-in-a-nestjs-project-b4aec1f88612/"
+    },
+    {
+      "title": "How to Build a Generic Form Validator in Angular",
+      "body": "Building an Angular application that involves many forms can be stressful. Especially so when you have to handle the validation messages on each component. One way to reduce your stress is to write a generic validation class that handles all your validation messages....",
+      "date": "NOVEMBER 03, 2020",
+      "link": "https://www.freecodecamp.org/news/angular-generic-form-validator/"
+    },
+    {
+      "title": "How to Build Web APIs with NestJS, Postgres, and Sequelize - A Beginner's Guide",
+      "body": "NestJS is an MVC framework for building efficient, scalable Node.js server-side applications. It is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript). It also combines elements of Object Oriented Programming, Functional Programming, and Functional Reactive Programming...",
+      "date": "JUNE 15, 2020",
+      "link": "https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/"
+    },
+    {
+      "title": "How to use the addScope method in Sequelize",
+      "body": "Sequelize scoping allows you to define commonly used queries that you can easily use later. Scopes are defined in the model definition and can be finder objects, or functions returning finder objects...",
+      "date": "DECEMBER 02, 2019",
+      "link": "https://medium.com/@victoronwuzor/how-to-use-the-addscope-method-in-sequelize-69867e613909"
+    },
+    {
+      "title": "Software Development Summary for absolute Beginners",
+      "body": "If you are a beginner in the software development ecosystem, chances are you can’t wait to start developing badass web apps, mobile or desktop apps...",
+      "date": "NOVEMBER 20, 2017",
+      "link": "https://medium.com/@victoronwuzor/software-development-for-absolute-beginners-1254cd8876f0"
+    }
+  ]
+}

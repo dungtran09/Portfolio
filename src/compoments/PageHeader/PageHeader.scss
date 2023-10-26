@@ -1,0 +1,29 @@
+@import "../../assets/scss/abstracts/variables";
+@import "../../assets/scss/abstracts/mixins";
+
+.page-header {
+  background-color: $color-grey-dark-8;
+  border-top: 2px solid $color-grey-dark-10;
+  border-bottom: 2px solid $color-grey-dark-10;
+  position: relative;
+  display: block;
+  padding: 6rem 7rem;
+
+  @include responsive(ipad) {
+    padding: 3rem 3.5rem;
+
+    .heading-primary {
+      margin-bottom: 0;
+    }
+  }
+
+  &__subtitle {
+    position: absolute;
+    top: 1rem;
+    right: 7rem;
+
+    @include responsive(ipad) {
+      position: static;
+    }
+  }
+}
