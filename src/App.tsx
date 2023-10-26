@@ -2,6 +2,7 @@ import "./assets/scss/_main.scss";
 import Footer from "./compoments/Footer/Footer";
 import Header from "./compoments/Header/Header";
 import Home from "./views/Home/Home";
+import Resume from "./views/Resume/Resume";
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <div className="layout transition-flip-in-right">
         <Header />
         <main>
-          <Home />
+          <Resume />
         </main>
         <Footer />
       </div>

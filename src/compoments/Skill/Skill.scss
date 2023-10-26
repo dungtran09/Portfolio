@@ -1,0 +1,14 @@
+@import "../../assets/scss/abstracts/variables";
+
+.skills {
+  ul {
+    list-style: none;
+    width: 80%;
+
+    li {
+      font-size: 1.5rem;
+      padding: 1rem;
+      border-bottom: 1px solid $color-grey-dark-7;
+    }
+  }
+}

@@ -1,4 +1,13 @@
+import Container from "../../compoments/Container/Container";
+import GridContainer from "../../compoments/Gird/GridContainer";
+import GridItem from "../../compoments/Gird/GridItem";
+import HeadingSecondary from "../../compoments/Headings/HeadingSecondary";
+import PageHeader from "../../compoments/PageHeader/PageHeader";
 import Section from "../../compoments/Section/Section";
+import Skill from "../../compoments/Skill/Skill";
+import Timeline from "../../compoments/Timeline/Timeline";
+import TimelineItem from "../../compoments/Timeline/TimelineItem";
+import data from "../../data/index.json";
 
 const Resume = () => (
   <Section>

@@ -1,3 +1,4 @@
+import HeadingPrimary from "../Headings/HeadingPrimary";
 import "./PageHeader.scss";
 
 type Props = {
