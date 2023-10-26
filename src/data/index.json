@@ -131,5 +131,57 @@
       "date": "NOVEMBER 20, 2017",
       "link": "https://medium.com/@victoronwuzor/software-development-for-absolute-beginners-1254cd8876f0"
     }
+  ],
+  "projects": [
+    {
+      "label": "html",
+      "image": "https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg?1551358096",
+      "alt": "Sprouge Image",
+      "title": "Sprouge",
+      "stack": "Angular, Node, Express",
+      "preview": "https://gog.com",
+      "github": "https://gog.com",
+      "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quisquam atque tenetur libero, quos repellendus, ab tempora recusandae, velit hic dicta ullam odit provident molestias ipsam! Eos tempora quia sit."
+    },
+    {
+      "label": "angular",
+      "image": "https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg?1551358096",
+      "alt": "Sprouge Image",
+      "title": "Sprouge",
+      "stack": "Angular, Node, Express",
+      "preview": "https://gog.com",
+      "github": "https://gog.com",
+      "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quisquam atque tenetur libero, quos repellendus, ab tempora recusandae, velit hic dicta ullam odit provident molestias ipsam! Eos tempora quia sit."
+    },
+    {
+      "label": "react",
+      "image": "https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg?1551358096",
+      "alt": "Sprouge Image",
+      "title": "Sprouge",
+      "stack": "Angular, Node, Express",
+      "preview": "https://gog.com",
+      "github": "https://gog.com",
+      "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quisquam atque tenetur libero, quos repellendus, ab tempora recusandae, velit hic dicta ullam odit provident molestias ipsam! Eos tempora quia sit."
+    },
+    {
+      "label": "react",
+      "image": "https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg?1551358096",
+      "alt": "Sprouge Image",
+      "title": "Sprouge",
+      "stack": "Angular, Node, Express",
+      "preview": "https://gog.com",
+      "github": "https://gog.com",
+      "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quisquam atque tenetur libero, quos repellendus, ab tempora recusandae, velit hic dicta ullam odit provident molestias ipsam! Eos tempora quia sit."
+    },
+    {
+      "label": "react",
+      "image": "https://s3.amazonaws.com/creativetim_bucket/products/55/thumb/opt_mdp_angular_thumbnail.jpg?1551358096",
+      "alt": "Sprouge Image",
+      "title": "Sprouge",
+      "stack": "Angular, Node, Express",
+      "preview": "https://gog.com",
+      "github": "https://gog.com",
+      "about": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quisquam atque tenetur libero, quos repellendus, ab tempora recusandae, velit hic dicta ullam odit provident molestias ipsam! Eos tempora quia sit."
+    }
   ]
 }
