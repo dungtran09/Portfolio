@@ -11,7 +11,7 @@ import data from "../../data/index.json";
 
 const Resume = () => (
   <Section>
-    <PageHeader title="Resume" subTitle="6+ Years of Experience" />
+    <PageHeader title="Resume" subTitle="Experience" />
 
     <Container>
       <GridContainer>

@@ -23,7 +23,7 @@ const Contact = () => (
                 href="mailto:victor.onwuzor@gmail.com"
                 className="btn btn__primary"
               >
-                Say Hello{" "}
+                Say Hello
                 <span role="img" aria-label="emoji">
                   👋
                 </span>
