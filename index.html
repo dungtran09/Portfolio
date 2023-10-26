@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Dung Tran</title>
   </head>
+  <style media="screen">
+    #loader {
+      position: absolute;
+      display: block;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+      -webkit-transform: translate3d(0, -50%, 0);
+      -moz-transform: translate3d(0, -50%, 0);
+      -o-transform: translate3d(0, -50%, 0);
+      -ms-transform: translate3d(0, -50%, 0);
+      transform: translate3d(0, -50%, 0);
+      text-align: center;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      top: 50%;
+    }
+  </style>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div id="loader">
+        <img src="./public/img/loader-preview.svg" alt="loading" />
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
