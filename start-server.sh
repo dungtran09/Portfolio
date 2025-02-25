@@ -10,5 +10,4 @@ npm run build
 npm install serve
 
 # Chạy ứng dụng trên port 3000
-npx serve -s build -l 3000
-
+npx serve -s build -l 3000 --no-clipboard
