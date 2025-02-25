@@ -1,13 +1,13 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Container from "../../compoments/Container/Container";
 import PageHeader from "../../compoments/PageHeader/PageHeader";
 import Section from "../../compoments/Section/Section";
 
 import { Tabs } from "antd";
-import { TabsPosition } from "antd/es/tabs";
+// import { TabsPosition } from "antd/es/tabs";
 
 const Portfolio = () => {
-  const [mode, setMode] = useState<TabsPosition>("top");
+  // const [mode, setMode] = useState<TabsPosition>("top");
 
   return (
     <Section>
@@ -59,7 +59,7 @@ const Portfolio = () => {
         }
         <Tabs
           defaultActiveKey="1"
-          tabPosition={mode}
+          // tabPosition={mode}
           style={{ height: 220 }}
           items={new Array(3).fill(null).map((_, i) => {
             const id = String(i);
