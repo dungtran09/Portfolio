@@ -7,7 +7,8 @@ npm install
 npm run build
 
 # Cài đặt serve để chạy ứng dụng build
-npm install -g serve
+npm install serve
 
 # Chạy ứng dụng trên port 3000
-serve -s dist -l 3000
+npx serve -s build -l 3000
+
