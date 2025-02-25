@@ -14,6 +14,7 @@ const Resume = () => (
     <PageHeader title="Resume" subTitle="Experience" />
 
     <Container>
+      |
       <GridContainer>
         <GridItem styles="col-6">
           <HeadingSecondary text="Experience" />
@@ -41,7 +42,6 @@ const Resume = () => (
           </Timeline>
         </GridItem>
       </GridContainer>
-
       <GridContainer>
         <GridItem styles="col-4">
           <HeadingSecondary text="Basic Stack" />
@@ -61,7 +61,6 @@ const Resume = () => (
           <Skill skills={data.skills.databases} />
         </GridItem>
       </GridContainer>
-
       <GridContainer>
         <GridItem styles="col-4">
           <HeadingSecondary text="Testing Tools" />
@@ -81,7 +80,6 @@ const Resume = () => (
           <Skill skills={data.skills.infrastructure} />
         </GridItem>
       </GridContainer>
-
       <GridContainer>
         <GridItem styles="col-4">
           <HeadingSecondary text="API Specs" />
